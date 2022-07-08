@@ -1,0 +1,5 @@
+.home-container{
+    display: flex;
+    align-items: center;
+    background: rgb(247, 242, 242);
+}

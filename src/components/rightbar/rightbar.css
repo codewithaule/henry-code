@@ -1,0 +1,116 @@
+.rightbar{
+    flex: 3.5;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 115vh;
+}
+.rightbarWrapper{
+    margin: 0;
+    padding-left: 30px;
+    padding-right: 40px;
+    padding-top: -60px;
+}
+
+.firstcontainer{
+    padding: 20px;
+   
+    display: flex;
+    flex-direction: column;
+    background: white;
+    border-radius: 15px;
+    
+} 
+.message{
+    margin-bottom: 20px;
+}
+.searchmessage{
+   
+    height: 30px;
+    background: rgb(243, 234, 234);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+.searchinput{
+    background: none;
+    outline: none;
+    border: none;
+    width: 100%;
+}
+.rightbarheading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    margin-bottom: 0.5rem;
+}
+.hr{
+    margin-bottom: 00.5rem;
+}
+.request{
+    list-style: none;
+    text-decoration: none;
+    padding-left: 40px;
+    
+}
+.request li{
+    display: flex;
+    margin-left: -2.3rem;
+    margin-bottom: 1rem;
+
+}
+.request li img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.firstrequest li img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+    margin-right: 10px;
+   
+}
+.spanrequest{
+    padding: 20px;
+    background: none;
+    font-weight: 600;
+}
+.firstrequest{
+    padding: 20px;
+    background: white;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+.firstrequest li{
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+}
+.buttondiv{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.Acceptbutton{
+    padding: 10px 20px;
+    border-radius: 15px;
+    background: blueviolet;
+    color: #fff;
+    border: none;
+    margin-right: 25px;
+    margin-top: 20px;}
+    .Declinebutton{
+        padding: 10px 20px;
+        border-radius: 15px;
+        background: rgb(168, 165, 172);
+        color: #fff;
+        border: none;
+        margin-top: 20px;}
