@@ -1,0 +1,260 @@
+.rightbar{
+    flex: 3.5;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 115vh;
+}
+.rightbarWrapper{
+    margin: 0;
+    padding-left: 30px;
+    padding-right: 40px;
+    padding-top: -60px;
+}
+
+.firstcontainer{
+    padding: 20px;
+   
+    display: flex;
+    flex-direction: column;
+    background: rgb(37, 35, 35);
+    border-radius: 15px;
+    
+} 
+.firstcontainer:nth-child(2){
+    margin-top: 20px;
+    box-shadow: 0 2px 4px rgba(4 64 54/ 10%);
+    background: white;
+    border: 2px solid rgb(104, 100, 100);
+}
+.firstcontainer:nth-child(2) .leaderboard{
+    color: black;
+}
+.firstcontainer:nth-child(2) #leader{
+    background: rgb(49, 85, 202);
+    display: flex;
+    color: #fff;
+    padding: 5px;
+    border-radius: 15px;
+    position: relative;
+    
+}
+.firstcontainer:nth-child(2) .content{
+    padding-top: 8px;
+}
+.firstcontainer:nth-child(2) #leader p{
+    font-size: 9px;
+}
+.firstcontainer:nth-child(2) #leader .lastsmalll{
+    padding: 0;
+    background: none;
+    color: white;
+    margin-left: 24px;
+}
+.firstcontainer:nth-child(2) .roundicon{
+    font-size: 15px !important;
+    left: 40px;
+    bottom: 5px;
+    position: absolute;
+}
+ .secroundicon2{
+    font-size: 20px !important;
+    right: 120px;
+    
+    position: absolute;
+}
+.ub{
+    margin: 3px;
+    
+    background: rgb(12, 11, 11);
+    opacity: 0.5;
+    padding: 5px;
+    border-radius: 15px;
+    color: #fff;
+}
+.leaderboard{
+ color: #fff;
+ text-align: center;
+}
+.firstleaderboard{
+    padding: 5px;
+    display: flex;
+    background: yellow;
+    border-radius: 15px;
+    margin-top: 20px;
+    position: relative;
+    color: #131212fb;
+}
+
+
+.secleaderboard{
+    padding: 5px;
+    display: flex;
+    background: rgb(49, 85, 202);
+    border-radius: 15px;
+    margin-top: 20px;
+    position: relative;
+    color: #fff;
+}
+.secleaderboard .secroundicon{
+     left: 132px;
+}
+.thirdleaderboard{
+    padding: 5px;
+    display: flex;
+    background: rgb(199, 52, 199);
+    border-radius: 15px;
+    margin-top: 20px;
+    position: relative;
+    color: #fff;
+}
+
+.forthleaderboard{
+    padding: 5px;
+    display: flex;
+    background: white;
+    border-radius: 15px;
+    margin-top: 20px;
+    position: relative;
+}
+.fifthleaderboard{
+    padding: 5px;
+    display: flex;
+    background: white;
+    border-radius: 15px;
+    margin-top: 20px;
+    position: relative;
+    margin-bottom: 20px;
+}
+ #leader small{
+    font-size: 9px;
+    margin-bottom: 20px;
+ }
+ .roundicon{
+    position: absolute;
+    color: rgb(235, 194, 13) !important;
+   
+ }
+ .secroundicon{
+    width: 25px;
+    height: 25px;
+    font-size: 30px !important;
+    color: rgb(243, 224, 138) !important;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 21px;
+    left: 127px;
+    justify-content: center;
+}
+ 
+ .lastsmall{
+    margin-left: 25px;
+    background: rgb(12, 11, 11);
+    opacity: 0.5;
+    padding: 5px;
+    border-radius: 15px;
+    color: #fff;
+ }
+#leader img{
+    width: 45px;
+    height: 45px;
+    border-radius: 25%;
+    object-fit: cover;
+    cursor: pointer;
+    margin-right: 10px; 
+}
+
+.firstrequest li img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+    margin-right: 10px;
+   
+}
+.spanrequest{
+    padding: 20px;
+    background: none;
+    font-weight: 600;
+}
+.firstrequest{
+    padding: 20px;
+    background: white;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+.firstrequest li{
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+}
+.buttondiv{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.Acceptbutton{
+    padding: 10px 20px;
+    border-radius: 15px;
+    background: blueviolet;
+    color: #fff;
+    border: none;
+    margin-right: 25px;
+    margin-top: 20px;
+}
+    .Declinebutton{
+        padding: 10px 20px;
+        border-radius: 15px;
+        background: rgb(168, 165, 172);
+        color: #fff;
+        border: none;
+        margin-top: 20px;}
+        .asset li{
+            list-style: none;
+            text-decoration: none;
+            align-items: center;
+            display: flex;
+            font-weight: 600;
+        }
+        .asset{
+            padding: 0;
+            background: #fff;
+            border-radius: 15px;
+            margin-top: 20px;
+        }
+        .assets{
+            font-weight: 600;
+        }
+        .one{
+            background-color: blueviolet;
+            padding: 20px;
+            border-radius: 15px;
+            position: relative;
+            color: #fff;
+        }
+        .two{
+            padding: 20px;
+            
+        }
+        .three{
+            padding: 20px;
+            
+        }
+        .four{
+            
+            padding: 20px;
+            
+        }
+        .five{
+           
+            padding: 20px;
+            
+        }
+        .asset span{
+            margin-left: 20px;
+        }
+        .assetss{
+            padding: 0;
+        }
